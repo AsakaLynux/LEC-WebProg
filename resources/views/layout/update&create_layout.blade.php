@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href='css/style.css' type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <title>Add New Course</title>
+    <title>@yield('title-page')</title>
 </head>
 <style>
     * {
@@ -82,16 +82,6 @@
         color: #32303F;
     }
 
-    .add-course button{
-        margin-top: 30px;
-        width: 70%;
-        height: 50px;
-        border-radius: 40px;
-        background-color: #D3E6FC;
-        color: #423F50;
-        font-size: 1.2em;
-    }
-
 
 </style>
 <body>
@@ -120,9 +110,7 @@
             </div>
 
             <div class="records_dynamic"></div>
-            <div class="add-course">
-                <button type="submit">Add Course</button>
-            </div>
+
         </form>
     </div>
 </body>
