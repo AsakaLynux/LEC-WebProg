@@ -79,6 +79,7 @@
 <body>
     <h1 id="title">@yield('title')</h1>
     <h2 id="subtitle">@yield('subtitle')</h2>
+    {{-- Using if condition for make diff with admin and member --}}
     <div class="suggest">
         <a href="/update-course" style="text-decoration: none;">
             <img class="child inline-block-child" src="storage/images/edit_icon.png" alt="">
@@ -86,7 +87,7 @@
         </a>
     </div>
     <div class="suggest">
-        <a href="#"  style="text-decoration: none;">
+        <a href="/create-suggest"  style="text-decoration: none;">
             <img class="child inline-block-child" src="storage/images/suggest_icon.png" alt="">
         <h4 class="child inline-block-child" style="color: @yield('suggest-color')">Any Suggestion?</h4>
         </a>
