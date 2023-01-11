@@ -16,11 +16,12 @@
     }
     .suggest {
         width: 282px;
-        height: 60px;
+        height: 40px;
         border-radius: 40px;
         font-size: 20px;
         font-weight: 700;
         display: inline-table;
+
         background-color: @yield('background-suggest');
     }
     #title {
@@ -79,8 +80,17 @@
     <h1 id="title">@yield('title')</h1>
     <h2 id="subtitle">@yield('subtitle')</h2>
     <div class="suggest">
-        <img class="child inline-block-child" src="storage/images/suggest_icon.png" alt="">
+        <a href="/update-course" style="text-decoration: none;">
+            <img class="child inline-block-child" src="storage/images/edit_icon.png" alt="">
+            <h4 class="child inline-block-child" style="color: @yield('suggest-color')">Edit Course</h4>
+        </a>
+    </div>
+    <div class="suggest">
+        <a href="#"  style="text-decoration: none;">
+            <img class="child inline-block-child" src="storage/images/suggest_icon.png" alt="">
         <h4 class="child inline-block-child" style="color: @yield('suggest-color')">Any Suggestion?</h4>
+        </a>
+
     </div>
         <ul class="course">
             <li>

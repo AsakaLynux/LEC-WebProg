@@ -65,6 +65,9 @@ Route::get('/create-course', function () {
     return view('admin.course.create-course');
 });
 
+Route::get('/update-course', function () {
+    return view('admin.course.update-course');
+});
 
 
 // Member
