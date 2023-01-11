@@ -21,7 +21,7 @@
 <a href="/html">
     <form action="">
         <div class="delete" style="background-color: #FFE1E1">
-            <button type="submit" class="button"><img src="{{URL ('image/vector.jpg')}}" alt=""></button>
+            <button type="submit" class="button"><img src="storage/images/delete_icon.png" alt=""></button>
         </div>
     </form>
     <div class="card" style="background-color: #EDB8AC;">
@@ -34,7 +34,7 @@
 <a href="/css">
     <form action="">
         <div class="delete" style="background-color: #F4F4F4">
-            <button type="submit" class="button"><img src="{{URL ('image/vector.jpg')}}" alt=""></button>
+            <button type="submit" class="button"><img src="storage/images/delete_icon.png" alt=""></button>
         </div>
     </form>
     <div class="card" style="background-color: #B5B5B5;">
@@ -47,7 +47,7 @@
 <a href="/javascript">
     <form action="">
         <div class="delete" style="background-color: #DFFCFF">
-            <button type="submit" class="button"><img src="{{URL ('image/vector.jpg')}}" alt=""></button>
+            <button type="submit" class="button"><img src="storage/images/delete_icon.png" alt=""></button>
         </div>
     </form>
     <div class="card" style="background-color: #ACE5ED;">
