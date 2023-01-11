@@ -65,7 +65,7 @@
 
 @section('new-course-button')
 <div class="new-course">
-    <a href="">
+    <a href="/create-course">
         <img src="storage/images/add_icon.png" alt="">
         <p>Add New Course</p>
     </a>

@@ -61,6 +61,11 @@ Route::get('/c++', function () {
     return view('admin.course.back-end.c++_course');
 });
 
+Route::get('/create-course', function () {
+    return view('admin.course.create-course');
+});
+
+
 
 // Member
 Route::get('/front', function () {
