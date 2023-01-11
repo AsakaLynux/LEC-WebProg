@@ -82,11 +82,21 @@
         color: #32303F;
     }
 
+    .add-course button{
+        margin-top: 30px;
+        width: 70%;
+        height: 50px;
+        border-radius: 40px;
+        background-color: #D3E6FC;
+        color: #423F50;
+        font-size: 1.2em;
+    }
+
 
 </style>
 <body>
     <div class="title">
-        <h1>Add New Course</h1>
+        <h1>@yield('title')</h1>
         <h4>Help us improve our website!</h4>
     </div>
     <div class="form-text">
@@ -111,6 +121,9 @@
 
             <div class="records_dynamic"></div>
 
+            <div class="add-course">
+                <button type="submit">@yield('button')</button>
+            </div>
         </form>
     </div>
 </body>
