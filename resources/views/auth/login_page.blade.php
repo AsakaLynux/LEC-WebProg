@@ -17,7 +17,7 @@
 
 @section('title-color', '#47464C')
 
-@section('form-action', '/home')
+@section('form-action', '/login')
 
 @section('form')
     <br><label for="username">Username</label>

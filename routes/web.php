@@ -30,12 +30,7 @@ Route::get('/login', function () {
     return view('auth.login_page');
 });
 
-
-
-Route::get('/home', function () {
-    return view('home_page');
-});
-
+Route::post('/login', [AuthController::class, 'login']);
 
 // Admin
 
