@@ -1,24 +1,24 @@
 @extends('layout.course_layout')
 
 {{-- title page --}}
-@section('title-page', 'PHP')
-@section('background-page', '#6A94C5')
+@section('title-page', 'HTML')
+@section('background-page', '#EDB8AC')
 
 {{-- Suggest --}}
 @section('suggest-color', '#32303F')
-@section('background-suggest', '#D3E6FC')
+@section('background-suggest', '#FFE1E1')
 
 {{-- title --}}
-@section('title', 'PHP')
-@section('title-color', '#B9CFE8')
+@section('title', 'HTML')
+@section('title-color', '#32303F')
 
 {{-- subtitle --}}
-@section('subtitle', 'A Web Server Programming Language')
+@section('subtitle', 'The language for building web pages')
 @section('subtitle-color', '#32303F')
 
 {{-- Materi --}}
-@section('materi-background-color-even', '#4B4B58')
-@section('materi-background-color-odd', '#B9CFE8')
+@section('materi-background-color-even', '#756569')
+@section('materi-background-color-odd', '#F6E6E1')
 
 {{-- Materi 1 --}}
 @section('materi-1', 'Heading')

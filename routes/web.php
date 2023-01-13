@@ -44,7 +44,21 @@ Route::get('/back-end', function () {
     return view('admin.back-end_page');
 });
 
-// Course
+// Course Front-End
+Route::get('/html', function () {
+    return view('admin.course.front-end.html_course');
+});
+
+Route::get('/css', function () {
+    return view('admin.course.front-end.css_course');
+});
+
+Route::get('/javascript', function () {
+    return view('admin.course.front-end.javascript_course');
+});
+
+
+// Course back end
 Route::get('/php', function () {
     return view('admin.course.back-end.php_course');
 });
