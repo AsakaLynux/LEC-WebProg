@@ -15,7 +15,7 @@ class CreatePengajarcourseTable extends Migration
     {
         Schema::create('pengajarcourse', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('pengajar_id')->references('id')->on('pengajar');
+            $table->foreignId('pengajar_id')->references('id')->on('users');
             $table->foreignId('course_id')->references('id')->on('course');
             $table->timestamps();
         });
