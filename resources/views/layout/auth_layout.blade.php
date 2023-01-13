@@ -70,11 +70,20 @@
     <p style="color: @yield('title-color'); font-weight: 600; font-size: 1.5em">@yield('sub-title')</p>
 
     <div class="textForm">
-        <form action="@yield('form-action')">
+        <form action="@yield('form-action')" method="POST">
             @csrf
             @yield('form')
             <br><button type="submit">@yield('title')</button>
         </form>
     </div>
+    @if ($errors->any())
+    <div class="alert alert-danger">
+        <ul class="mb-0">
+            @foreach ($errors->all() as $error)
+                <li>{{$error}}</li>
+            @endforeach
+        </ul>
+    </div>
+    @endif
 </body>
 </html>
